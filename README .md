@@ -13,7 +13,7 @@ Best hotel clusters in Expedia
      dest_id_hotel_cluster_count <- 
        exp_train_sorted[,sum_and_count(is_booking),by=list(orig_destination_distance, hotel_cluster)]
      dest_id_hotel_cluster_count1 <- 
-        expedia_train[,sum_and_count(is_booking),by=list(srch_destination_id, hotel_cluster)]
+        expedia_test[,sum_and_count(is_booking),by=list(srch_destination_id, hotel_cluster)]
 
 
      top_five <- function(hc,v1){
