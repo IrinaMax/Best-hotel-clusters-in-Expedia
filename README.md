@@ -1,5 +1,5 @@
 # Best-hotel-clusters-in-Expedia
-    Best hotel clusters in Expedia
+    The code is clustering hotels of Expedia dataset
 
 ## R version of most popular local hotels
     library(data.table)
